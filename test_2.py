@@ -1,4 +1,6 @@
 print('Привет')
+print('yes')
+
 
 
 
