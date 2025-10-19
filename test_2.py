@@ -1,5 +1,5 @@
 print('Привет')
-print('yes!123')
+print('yes!')
 
 
 
