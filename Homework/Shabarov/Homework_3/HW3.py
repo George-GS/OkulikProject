@@ -1,1 +1,1 @@
-print('1bukva')
+print('1bukva-2')
