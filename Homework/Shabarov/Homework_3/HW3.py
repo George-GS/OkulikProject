@@ -1,0 +1,1 @@
+print('1bukva-2')
