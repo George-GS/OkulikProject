@@ -1,6 +1,2 @@
-print('Привет')
-print('yes!')
-
-
-
-
+print("Привет")
+print("yes!")
