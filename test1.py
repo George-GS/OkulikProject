@@ -1,6 +1,14 @@
-print("Привет лол кек")
-print("написал это с компа 2")
+name = input('Введите ваше имя: ')
+demo = f'Привет, {name}!'
+print(demo)
 
-c = "text"
-d = "text"
-print(c is d)
+age = input(f"{name}, введите ваш возраст: ")
+print(f'Ваш возраст: {age}')
+
+age = int(age)
+
+if age > 28:
+    print(f'{name}, Вы милениал')
+
+else:
+    print('Ты школьник')
