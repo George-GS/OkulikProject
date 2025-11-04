@@ -12,3 +12,7 @@ if age > 28:
 
 else:
     print('Ты школьник')
+
+new = 411
+print(new)
+
