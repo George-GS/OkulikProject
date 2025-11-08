@@ -1,18 +1,14 @@
-name = input('Введите ваше имя: ')
-demo = f'Привет, {name}!'
-print(demo)
+phonebook = {
+    "Alice": "123-4567",
+    "Bob": "234-5678",
+}
 
-age = input(f"{name}, введите ваш возраст: ")
-print(f'Ваш возраст: {age}')
+# my_list = [2, 1, 3]
+#
+# my_list()
+# print(my_list)
 
-age = int(age)
 
-if age > 28:
-    print(f'{name}, Вы милениал')
-
-else:
-    print('Ты школьник')
-
-new = 411
-print(new)
+for i in range(2, 10, 3):
+    print()
 
