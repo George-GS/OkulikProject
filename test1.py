@@ -1,14 +1,17 @@
-phonebook = {
-    "Alice": "123-4567",
-    "Bob": "234-5678",
+api_response = {
+    "status": "success",
+    "data": {
+        "user_id": 12345,
+        "name": "John Doe", 
+        "orders": [101, 102, 103]
+    },
+    "message": "User found successfully"
 }
 
-# my_list = [2, 1, 3]
-#
-# my_list()
-# print(my_list)
+# Задания:
+# 1. Получи имя пользователя из ответа
+# 2. Проверь равен ли статус "success" 
+# 3. Выведи количество заказов пользователя
+# 4. Выведи сообщение от API
 
-
-for i in range(2, 10, 3):
-    print()
-
+print(api_response['data']["name"])

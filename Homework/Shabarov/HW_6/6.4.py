@@ -24,7 +24,6 @@ for student, objects in students.items():
         a = sum(objects.values()) / 3
         best_student = student
 
-
     for object, ocenka in objects.items():
         if object == 'math' and ocenka > 85:
             stud_math_85.append(student)
