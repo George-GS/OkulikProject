@@ -4,10 +4,11 @@
 # # Напиши код который проверяет что после добавления пользователя в таблицу через sql запрос пользователь появился в таблице users
 
 import mysql.connector as mysql
+import os
 
 bd = mysql.connect(
-    user='st4',
-    passwd='AVNS_ANI6HFK07yLk4d9l4Nq',
+    user=os.getenv('DB_USER'),
+    passwd=os.getenv('DB_PASSW'),
     host='db-mysql-fra1-09136-do-user-7651996-0.b.db.ondigitalocean.com',
     port=25060,
     database='st4'
