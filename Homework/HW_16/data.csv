@@ -1,0 +1,7 @@
+username,password,expected_result,test_type
+user1,pass123,success,login
+user2,wrongpass,error,login
+admin,admin123,success,login
+testuser,test123,success,registration
+invalid_user,short,error,registration
+john_doe,Johndoe123!,success,registration
