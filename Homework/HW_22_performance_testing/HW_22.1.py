@@ -11,4 +11,4 @@ def time_request(url):
 
 
 time = time_request('https://jsonplaceholder.typicode.com/posts')
-print(f"Запрос выполнен за {time:.2f} секунд")
+print(f"Запрос выполнен за {round(time,2)} секунд")
