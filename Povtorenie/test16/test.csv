@@ -1,0 +1,6 @@
+test_name,status,duration,module
+test_login,passed,2.3,auth
+test_registration,failed,1.8,auth
+test_search,passed,0.9,search
+test_checkout,skipped,0.0,payment
+test_payment,passed,3.2,payment
